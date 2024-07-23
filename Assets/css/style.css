@@ -8,6 +8,7 @@
 body {
     font-family: "Edu AU VIC WA NT Hand", cursive;
     background-color: #071347;
+    font-size: 24px;
     line-height: 1.6;
     color: #FFF5EA;
 }
@@ -49,6 +50,7 @@ nav ul li a {
     color: #071347;
     text-decoration: none;
     font-weight: 500;
+    font-size: 16px;
 }
 
 nav ul li a:hover {
@@ -140,8 +142,6 @@ section p {
     padding: 16px;
     margin-top: -22px;
     color: white;
-    font-weight: bold;
-    font-size: 18px;
     transition: 0.6s ease;
     user-select: none;
     background-color: rgba(0, 0, 0, 0.5);
@@ -301,6 +301,10 @@ section p {
         margin-right: auto;
     }
 
+    .design-01 {
+        text-align: left;
+    }
+
     .feedbacks-01 {
         width: 70%;
         margin-left: auto;
@@ -315,7 +319,7 @@ section p {
 
     .team-member {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
     }
 
     .team-member p, .team-member img {
@@ -334,15 +338,12 @@ section p {
 
 .metricas-section h2 {
     color: #FFF5EA;
-    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
 .metricas-section p {
     color: #FFF5EA;
     margin-bottom: 35px;
-    font-size: 1.2em;
-    line-height: 1.5;
 }
 
 .metricas-container {
@@ -373,14 +374,9 @@ section p {
 }
 
 .metrica-info h3 {
-    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.metrica-info p {
-    font-size: 1em;
-    line-height: 1.5;
-}
 
 /* Responsividade */
 @media (max-width: 768px) {
@@ -470,11 +466,16 @@ section p {
     .footer-content, .footer-social {
       width: 80;
         margin-bottom: 20px;
+        font-size: 16px;
     }
   
     .footer-social a {
         justify-content: center;
         margin: 10px 0;
+    }
+
+    .copy {
+        font-size: 16px;
     }
   }
   

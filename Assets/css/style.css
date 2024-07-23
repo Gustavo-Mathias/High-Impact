@@ -7,9 +7,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f1f1f1;
+    background-color: #071347;
     line-height: 1.6;
-    color: #0E268D;
+    color: #FFF5EA;
 }
 
 .container {
@@ -20,8 +20,8 @@ body {
 
 /* Estilo do header */
 header {
-    background-color: #071347;
-    color: #FFF5EA;
+    background-color: #FFF5EA;
+    color: #071347;
     padding: 1rem 0;
     text-align: center;
     width: 100%;
@@ -46,13 +46,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #071347;
     text-decoration: none;
     font-weight: 500;
 }
 
 nav ul li a:hover {
-    color: #ff6600;
+    color: #0E268D;
 }
 
 /* Ícone do menu hambúrguer */
@@ -67,7 +67,7 @@ nav ul li a:hover {
 .hamburger div {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: #071347;
     margin: 3px 0;
 }
 
@@ -94,7 +94,7 @@ section p {
 }
 
 #reestruturacao {
-    background-color: #071347;
+    background-color: #FFF5EA;
 }
 
 #designs {
@@ -199,7 +199,7 @@ section p {
 
 .site-footer {
     margin-top: 62px;
-    background-color: #071347;
+    background-color: #FFF5EA;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -211,15 +211,16 @@ section p {
   
   footer p {
     padding: 5px;
-    color: #FFF5EA;
+    color: #071347;
   }
 
   .footer-social {
     margin-top: 40px;
+    margin-bottom: 40px;
   }
   
   .footer-social a{
-    color: #FFF5EA;
+    color: #071347;
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -255,12 +256,12 @@ section p {
 }
 
 #team .container {
-    background-color: #071347;
+    background-color: #FFF5EA;
     width: 80%;
     margin: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    color: #FFF5EA;
+    color: #071347;
     padding: 2rem;
     text-align: left;
 }
@@ -276,7 +277,7 @@ section p {
 .team-member p {
     width: 50%;
     font-size: 1rem;
-    color: #FFF5EA;
+    color: #071347;
     line-height: 1.5;
 }
 
@@ -314,7 +315,7 @@ section p {
 }
 
 .metricas-section h2 {
-    color: #0E268D;
+    color: #FFF5EA;
     font-size: 2.5em;
     margin-bottom: 20px;
 }

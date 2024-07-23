@@ -11,6 +11,10 @@ body {
     font-size: 24px;
     line-height: 1.6;
     color: #FFF5EA;
+    background-image: url('/Assets/img/textura.png');
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -354,7 +358,6 @@ section p {
 }
 
 .metrica-item {
-    background-color: #071347;
     border-radius: 10px;
     padding: 20px;
     width: calc(33.333% - 40px);
